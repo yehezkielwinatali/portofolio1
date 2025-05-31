@@ -14,6 +14,7 @@ const projects = [
       "nextjs",
       "tailwind",
       "framer-motion",
+      "gemini-ai",
     ],
     demoUrl: "https://path-wise.netlify.app/",
     githubUrl: "https://github.com/yehezkielwinatali/PathWise.git",
@@ -24,7 +25,14 @@ const projects = [
     description:
       "Angelomotive is an AI powered car dealership website that helps you find your preferred car. Upload a picture of the car you want, and AI will find the best match for you. EMI calculator is also available to help you calculate your monthly payment.",
     image: "/projects/angelomotive.png",
-    tags: ["tailwind", "nextjs", "prisma", "supabase", "typescript"],
+    tags: [
+      "tailwind",
+      "nextjs",
+      "prisma",
+      "supabase",
+      "typescript",
+      "gemini-ai",
+    ],
     demoUrl: "https://angelomotive.vercel.app/",
     githubUrl: "https://github.com/yehezkielwinatali/Angelomotive.git",
   },
@@ -42,6 +50,7 @@ const projects = [
       "tailwind",
       "typescript",
       "framer-motion",
+      "gemini-ai",
     ],
     demoUrl: "https://jagauang.vercel.app/",
     githubUrl: "https://github.com/yehezkielwinatali/jagauang.git",
@@ -55,10 +64,12 @@ const Projects = () => {
           Featured <span className="text-primary">Projects</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus nemo suscipit nihil placeat maiores corporis et
-          voluptatibus! Quidem assumenda rem, iusto sed quia odio voluptatem,
-          ratione atque cupiditate vel aut.
+          These projects showcase my ability to build full-stack, AI-integrated
+          web applications using modern technologies like Next.js, TypeScript,
+          Prisma, and Tailwind CSS. PathWise assists with resumes and interview
+          prep, Angelomotive helps users find cars using image search and EMI
+          tools, and JagaUang manages personal finances with receipt scanning
+          and smart insights.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, key) => (
