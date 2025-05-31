@@ -15,7 +15,7 @@ const projects = [
       "tailwind",
       "framer-motion",
     ],
-    demoUrl: "https://angelomotive.vercel.app/",
+    demoUrl: "https://path-wise.netlify.app/",
     githubUrl: "https://github.com/yehezkielwinatali/PathWise.git",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
       "typescript",
       "framer-motion",
     ],
-    demoUrl: "#",
+    demoUrl: "https://jagauang.vercel.app/",
     githubUrl: "https://github.com/yehezkielwinatali/jagauang.git",
   },
 ];
@@ -88,7 +88,7 @@ const Projects = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     <a
-                      href="https://github.com/yehezkielwinatali"
+                      href={project.demoUrl}
                       className="text-foreground/80 
                   hover:text-primary transition-colors duration-300"
                       target="_blank"
@@ -96,7 +96,7 @@ const Projects = () => {
                       <ExternalLink size={20} />
                     </a>
                     <a
-                      href="https://github.com/yehezkielwinatali"
+                      href={project.githubUrl}
                       target="_blank"
                       className="text-foreground/80 
                   hover:text-primary transition-colors duration-300"
