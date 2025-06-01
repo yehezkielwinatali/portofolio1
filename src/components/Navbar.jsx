@@ -48,7 +48,7 @@ const Navbar = () => {
         >
           <span className="relative z-10">
             <span className="text-glow text-foreground">Yehezkiel Angelo</span>{" "}
-            Portofolio
+            Portfolio
           </span>
         </a>
         {/* Desktop Nav */}
