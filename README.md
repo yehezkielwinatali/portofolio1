@@ -1,12 +1,27 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio — a clean, responsive website built with **React.js** and **Tailwind CSS**. This site showcases my skills, projects, and background as a frontend/web developer.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧑‍💻 **About Me** – A brief introduction and overview of my skills and background.
+- 🧾 **Projects Section** – Highlights of my work including:
+  - 🚗 [Angelomotive](#) – AI-powered car marketplace.
+  - 💰 [Jaga Uang](#) – Smart personal finance tracker.
+  - etc
+- 📫 **Contact Form** – Simple form to get in touch with me directly.
+- 📱 **Fully Responsive** – Optimized for mobile, tablet, and desktop screens.
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
